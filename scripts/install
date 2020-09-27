@@ -124,7 +124,7 @@ ynh_add_fpm_config --usage=medium --footprint=high --phpversion=$YNH_PHP_VERSION
 #=================================================
 
 # Define app's data directory
-datadir="/home/yunohost.app/$app/data"
+datadir="/media/hdd1/$app/data"
 # Create app folders
 mkdir -p "$datadir"
 
